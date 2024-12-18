@@ -280,7 +280,7 @@ body {
     transition : border-color 0.3s;
     margin-top: 0%;
     margin-right : 50px;
-    transform : translateY(-200%);
+    transform : translateY(-150%);
     }
     .inicioSesion button {
     background : none;
