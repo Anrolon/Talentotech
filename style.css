@@ -278,9 +278,9 @@ body {
     width : 40%;
     box-shadow : 0 2px 5px rgb(0, 0, 0, 0.1);
     transition : border-color 0.3s;
-    margin-top: o;
+    margin-top: 0%;
     margin-right : 50px;
-    transform : translateY(-80%);
+    transform : translateY(-200%);
     }
     .inicioSesion button {
     background : none;
