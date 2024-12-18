@@ -253,7 +253,7 @@ body {
     top : 6.5%;
     z-index : 2;
     }
-    @media (max-width: 481px) {
+    @media (min-width: 420px) and (max-width: 580px) {
     h1 {
     font-size : 15px;
     }
@@ -278,7 +278,7 @@ body {
     font-size : 10px;
     border-radius : 25px;
     border : #ccc solid 2px;
-    width : 35%;
+    width : 40%;
     box-shadow : 0 2px 5px rgb(0, 0, 0, 0.1);
     transition : border-color 0.3s;
     margin-top: o;
@@ -299,7 +299,7 @@ body {
     padding : 0;
     }
     .icon img {
-    width : 2.5%;
+    width : 3%;
     height : auto;
     object-fit : contain;
     position : absolute;
