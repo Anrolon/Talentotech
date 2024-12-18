@@ -283,7 +283,7 @@ body {
     transition : border-color 0.3s;
     margin-top: o;
     margin-right : 50px;
-
+    transform : translateY(-50%);
     }
     .inicioSesion button {
     background : none;
