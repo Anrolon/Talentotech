@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps</title>
+    <style>
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Nuestra Ubicación</h1>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7S4IapzokpwmhMLnaNB9W5lEwcaFN33U&callback=initMap" async defer></script>
+    <script>
+       
+        function initMap() {
+        
+            const ubicacion = { lat: 40.730610, lng: -73.935242 }; // Nueva York como ejemplo
+            const mapa = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: ubicacion
+            });
+
+       
+            const marcador = new google.maps.Marker({
+                position: ubicacion,
+                map: mapa,
+                title: "¡Aquí estamos!"
+            });
+        }
+    </script>
+</body>
+</html>
